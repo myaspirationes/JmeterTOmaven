@@ -76,6 +76,7 @@
                     <testFilesIncluded>
                         <jMeterTestFile>jdbc.jmx</jMeterTestFile>
                         <jMeterTestFile>list.jmx</jMeterTestFile>
+                        <jMeterTestFile>baiduTree.jmx</jMeterTestFile>
                     </testFilesIncluded>
                     <!--指定不需要运行的jmeter脚本-->
                     <!--testFilesExcluded>list.jmx</testFilesExcluded-->
@@ -149,6 +150,8 @@
                 <!-- using XSLT 2.0 -->
 
             </plugin>
+
+
 
         </plugins>
     </build>
